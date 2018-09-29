@@ -28,7 +28,7 @@ export default {
   },
   computed: {
     formattedCreatedAt () {
-      let createdAt = new Date(this.createdAt)
+      const createdAt = new Date(this.createdAt)
 
       if (isNaN(createdAt.getTime())) {
         return this.createdAt

@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import * as Emoji from './../helper/Emojis'
+import * as Emoji from '../helper/emojis'
 import Vue from 'vue'
 
 export default {

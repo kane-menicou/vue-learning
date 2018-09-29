@@ -24,7 +24,7 @@
 <script>
 import EmojiTypeHint from './EmojiTypeHint'
 import Vue from 'vue'
-import { emojify } from './../helper/Emojis'
+import { emojify } from '../helper/emojis'
 
 const EMOJI_SEARCH_REGEX = /:([a-zA-Z1-9+]+)$/
 
